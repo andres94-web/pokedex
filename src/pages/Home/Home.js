@@ -134,13 +134,13 @@ function Home({ history, ...props }) {
                   animation="border"
                   role="status"
                 >
-                  <span className="sr-only">Loading...</span>
+                  <span className="sr-only">Cargando...</span>
                 </Spinner>
               </div>
             }
             endMessage={
               <p className="text-light" style={{ textAlign: "center" }}>
-                <b>Yay! You have seen it all</b>
+                <b>Hurra! lo has visto todo</b>
               </p>
             }
           >

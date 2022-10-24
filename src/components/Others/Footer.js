@@ -8,9 +8,9 @@ const Footer = () => {
   return (
     <footer className="mt-5">
       <div className="d-flex justify-content-center align-items-center">
-        <p className="mr-1 credits-text">Developed by</p>
+        <p className="mr-1 credits-text">Desarrollado por</p>
         <a className="mhq" target="_blank" href="https://matheusmhq.com.br/">
-          Matheus Henrique
+          Andres Vallecilla
         </a>
       </div>
       <a

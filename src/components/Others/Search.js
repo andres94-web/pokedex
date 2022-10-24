@@ -14,12 +14,12 @@ const Search = ({ history, query }) => {
 
   return (
     <div className="container-search mb-4">
-      <Form.Label>Name or number</Form.Label>
+      <Form.Label>Nombre o numero</Form.Label>
       <div className="container-input-btn">
         <input
           onChange={(e) => setSeachQuery(e.currentTarget.value)}
           value={searchQuery}
-          placeholder="Ex. Bulbasaur"
+          placeholder="Ejemplo: Bulbasaur"
         />
         {searchQuery != "" && (
           <button onClick={() => setSeachQuery("")} className="btn-clear">
